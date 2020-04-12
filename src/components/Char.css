@@ -1,0 +1,39 @@
+@-webkit-keyframes introduce {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-3em);
+            transform: translateX(-3em);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes introduce {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-3em);
+            transform: translateX(-3em);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.intro {
+  -webkit-animation-name: introduce;
+          animation-name: introduce;
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+/*# sourceMappingURL=Char.css.map */

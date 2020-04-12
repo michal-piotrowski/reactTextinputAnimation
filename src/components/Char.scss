@@ -1,0 +1,12 @@
+@keyframes introduce {
+    0%   {transform: translateX(0) }
+    50%  {transform: translateX(-3em)}
+    100% {transform: translateX(0)}
+  }
+
+  
+  .intro {
+    animation-name: introduce;
+    animation-delay: -0.2s;
+    animation-duration: 0.4s;
+  }
